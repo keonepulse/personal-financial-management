@@ -2,11 +2,7 @@ import { GoStack } from 'react-icons/go';
 import { GrTransaction } from 'react-icons/gr';
 import { PiListMagnifyingGlass } from 'react-icons/pi';
 import SideBarNavItem from './SideBarNavItem';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
 import { RiBarChart2Line } from 'react-icons/ri';
-
-import SocialLink from './SocialLink';
 
 const SideBar = () => {
   return (
@@ -34,18 +30,6 @@ const SideBar = () => {
             icon={<GrTransaction />}
           />
         </ul>
-        <div className='flex justify-evenly p-5'>
-          <SocialLink
-            link='https://github.com/karamvirr'
-            icon={<FaGithub />}
-            name='github'
-          />
-          <SocialLink
-            link='https://www.linkedin.com/in/rai'
-            icon={<FaLinkedin />}
-            name='linkedin'
-          />
-        </div>
       </nav>
     </aside>
   );

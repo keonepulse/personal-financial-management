@@ -5,10 +5,6 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      colors: {
-        'linkedin': '#00A0DC',
-        'github': '#FAFBFC'
-      },
       keyframes: {
         fill: {
           '0%': { width: '0%' },

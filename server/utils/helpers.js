@@ -148,7 +148,7 @@ const mockTransaction = transaction => {
     transaction_id: getRandomId(),
     transaction_type: null,
     unofficial_currency_code: null,
-    website: 'https://github.com/karamvirr',
+    website: null,
     note: null,
     ...transaction
   };
